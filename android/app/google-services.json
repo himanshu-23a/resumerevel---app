@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769051202942",
+    "project_id": "resumerevel",
+    "storage_bucket": "resumerevel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769051202942:android:1c7e93bc5e79bdc494cf2f",
+        "android_client_info": {
+          "package_name": "com.resumerevel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzrXAwTpKpTCiugZJcG2Ra_snC8-cwgdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
