@@ -1,79 +1,57 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## ResumeRevel
+ResumeRevel is your one-stop solution for optimizing and enhancing your resume to stand out in the job market. Leveraging advanced technologies and insightful analytics, ResumeRevel empowers users to create, analyze, and refine their resumes with ease.
 
-# Getting Started
+## Development
+React Native <br> 
+API - Google's Gemini API - Gemini-pro and gemini vision pro models <br>
+Storage - Firebase Storage <br>
+Authentication - Firebase Authentication <br>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Key Features
+### Account Creation: 
+Users can sign up using their email and password. Upon verification, users gain access to the home screen to begin their resume optimization journey.
 
-## Step 1: Start the Metro Server
+### Resume Insights: 
+Upload your resume and uncover valuable insights such as overall score, formatting assessment, summary evaluation, skills analysis, keyword relevance, and personalized feedback.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Resume Management: 
+View, delete, or regenerate insights for your uploaded resume. Maintain full control over your resume optimization process.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Company and Job Details: 
+Fill out company and job details to tailor your resume for specific opportunities. Receive insights on the compatibility of your resume with the company's requirements, including job fit score, keyword match score, optimization tips, matched skills, and suggested interview questions.
 
-```bash
-# using npm
-npm start
+### Data Storage and Authentication: 
+Utilizes Firebase for secure data storage and user authentication, ensuring a seamless and secure experience.
 
-# OR using Yarn
-yarn start
-```
+### AI-driven Insights: 
+Harnesses the power of Google's generative AI Gemini API to generate comprehensive insights for resumes and job forms. Ensure the legitimacy and relevance of your documents before saving them to Firestore.
 
-## Step 2: Start your Application
+### Logout Functionality: 
+Users can securely logout from the app, maintaining privacy and security.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+ResumeRevel revolutionizes the resume optimization process, providing users with actionable insights and personalized recommendations to craft compelling resumes tailored to their career aspirations. Whether you're a seasoned professional or a job seeker entering the workforce, ResumeRevel is your trusted companion for resume excellence.
 
-### For Android
+## Screen Shots
+### 1. Login/ Signup
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/1798e9ed-94a0-46db-908e-0477184ac64d" alt="Login/Signup" width="300">
 
-```bash
-# using npm
-npm run android
+### 2. Email Verification
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/2ea52aa1-1880-401b-836c-cf5e7a2585d7" alt="Email Verification" width="300">
 
-# OR using Yarn
-yarn android
-```
+### 3. Upload Resume
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/c9df3139-4d72-4215-9fd3-033ef1ee484d" alt="Upload Resume" width="300">
 
-### For iOS
+### 4. Generated Insights of Resume
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/c7a14b3e-523a-42d6-9026-8a9f879ff527" alt="Generated Insights of Resume" width="300">
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/ba5b6da4-8f55-4307-bfc1-d5d869ab940a" alt="Generated Insights of Resume" width="300">
 
-```bash
-# using npm
-npm run ios
+### 5. Job Form
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/ef4dc8f5-2b37-4c2b-b5f1-eec681956279" alt="Job Form" width="300">
 
-# OR using Yarn
-yarn ios
-```
+### 6. Generated Insights
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/5b04cbd6-0b08-4935-9885-8235a45f3482" alt="Generated Insights" width="300">
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/099478f3-11d9-44f8-9493-4130fdd263fa" alt="Generated Insights" width="300">
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### 7. Logout
+<img src="https://github.com/himanshu-23a/resumerevel---app/assets/101521097/2432fc09-f5ff-4f31-8486-514bfb655ae5" alt="Logout" width="300">
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
