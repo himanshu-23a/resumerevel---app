@@ -1,5 +1,7 @@
 ## ResumeRevel
 ResumeRevel is your one-stop solution for optimizing and enhancing your resume to stand out in the job market. Leveraging advanced technologies and insightful analytics, ResumeRevel empowers users to create, analyze, and refine their resumes with ease.
+<br>
+### [Download the app now ->](https://drive.google.com/file/d/1YvQ2eUFbTZcJg_GUeza9ZxJgkjdurFHo/view?usp=sharing)
 
 ## Development
 React Native <br> 
