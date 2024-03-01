@@ -15,7 +15,7 @@ import {
     ActivityIndicator
 } from 'react-native';
 
-API_KEY = 'AIzaSyBrz7otKhlUaX8IYLCWy6ph4MXgWlqQMVU';
+API_KEY = '***';
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const CompanyForm = () => {
